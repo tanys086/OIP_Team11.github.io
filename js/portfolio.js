@@ -49,11 +49,18 @@ const contentData = {
         date: 'Friday, 26 July 2025',
         title: 'Weekly Pitch 1 - Project Foundation & LiDAR Proposal',
         content: `
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/VcRT75NhIhA"
+                        frameborder="0" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+            
             <h3>Stakeholder Presentation</h3>
-            <p>Presented our week's research findings to Glasgow City Council representatives and project supervisors. Demonstrated our comprehensive analysis of visitor counting technologies and justified our recommendation for LiDAR-based solutions. Received positive feedback on our heritage-sensitive approach and thorough regulatory compliance consideration.</p>
+            <p>Presented our week's research findings to Glasgow City Council representatives...</p>
             
             <h3>Solution Validation</h3>
-            <p>Validated our LiDAR approach with heritage preservation experts and technical advisors. Confirmed that our proposed non-invasive installation methods would meet Listed Building requirements. Gained approval to proceed with prototype development and testing phases for the following week.</p>
+            <p>Validated our LiDAR approach with heritage preservation experts...</p>
         `
     },
 
@@ -117,11 +124,15 @@ const contentData = {
         date: 'Saturday, 2 August 2025',
         title: 'Weekly Pitch 2 - Prototype Demonstration & Testing Results',
         content: `
-            <h3>Prototype Demonstration</h3>
-            <p>Presented fully functional LiDAR visitor counting prototype to stakeholders and project supervisors. Demonstrated real-time visitor detection capabilities, dashboard interface functionality, and data analytics features. Showcased system accuracy improvements and heritage-compliant installation methods developed during the week.</p>
+            <div class="video-container">
+                <iframe src="https://youtube.com/embed/IHbARJpyCKE" 
+                        frameborder="0" 
+                        allowfullscreen>
+                </iframe>
+            </div>
             
-            <h3>Testing Results & Validation</h3>
-            <p>Shared comprehensive testing results showing high accuracy rates and system reliability under various conditions. Presented performance benchmarks and comparison with traditional counting methods. Received stakeholder approval for field testing at the Kibble Palace and validation of our technical approach and implementation strategy.</p>
+            <h3>Prototype Demonstration</h3>
+            <p>Presented fully functional LiDAR visitor counting prototype...</p>
         `
     },
 
@@ -194,26 +205,12 @@ const contentData = {
             <p>Proposed expansion of LiDAR visitor counting technology to other Glasgow heritage sites including additional botanic garden locations, historic buildings, and cultural venues. Developed scalable deployment framework that can be adapted for various heritage environments while maintaining preservation standards and regulatory compliance.</p>
         `
     },
-    'marketing': {
-        date: 'Marketing & Outreach Strategy',
-        title: 'Marketing Strategy & Stakeholder Engagement',
-        content: `
-            <h3>Stakeholder Communication Plan</h3>
-            <p>Developed comprehensive marketing strategy for promoting the success of our LiDAR visitor analytics solution to heritage preservation community, technology sector, and academic institutions. Created case study materials highlighting innovative approach to balancing modern technology with heritage conservation requirements.</p>
-            
-            <h3>Public Engagement & Educational Outreach</h3>
-            <p>Planned public engagement initiatives to showcase how modern technology can enhance heritage site management without compromising historical integrity. Developed educational materials for visitors explaining the non-intrusive nature of LiDAR technology and its benefits for improving their experience at historic venues.</p>
-        `
-    },
     'reflection': {
         date: 'Project Reflection & Learning Outcomes',
-        title: 'Team Reflection & Project Learning',
+        title: 'A word from the Team',
         content: `
-            <h3>TYS</h3>
-            <p>blablabla</p>
-            
-            <h3>Tee Yuheng</h3>
-            <p>Eblablabla</p>
+            <h3></h3>
+
         `
     },
     'proud-page': {
