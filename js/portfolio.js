@@ -194,6 +194,26 @@ const contentData = {
     },
 
     // Additional Pages
+
+    'team-contract': {
+    date: 'Team Agreement Document',
+    title: 'Team Contract & Working Agreement',
+    content: `
+        <div class="pdf-container">
+            <iframe src="documents/T11_Team_Contract.pdf" 
+                    frameborder="0" 
+                    type="application/pdf">
+                <p>Your browser does not support PDF viewing. 
+                   <a href="documents/T11_Team_Contract.pdf" target="_blank">Download the Team Contract PDF</a>
+                </p>
+            </iframe>
+        </div>
+        
+        <h3>Document Overview</h3>
+        <p>This team contract outlines our working agreements, roles, responsibilities, and collaboration protocols for the Kibble Palace LiDAR project. It establishes clear expectations for communication, decision-making processes, and conflict resolution procedures throughout our development cycle.</p>
+        <p>The contract covers meeting schedules, task distribution, quality standards, deadline commitments, and individual accountability measures. These agreements ensure effective teamwork and successful project delivery while maintaining professional relationships and shared learning objectives.</p>
+    `
+    },
     'future-works': {
         date: 'Future Development Plans',
         title: 'Future Works & System Expansion',
