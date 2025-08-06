@@ -2,7 +2,7 @@
 const contentData = {
     // Week 1 Days
     'day1-week1': {
-        date: 'Monday, 22 July 2025',
+        date: 'Tuesday, 22 July 2025',
         title: 'Day 1 - Project Kickoff & Initial Research',
         content: `
             <h3>Team Formation & Project Overview</h3>
@@ -13,7 +13,7 @@ const contentData = {
         `
     },
     'day2-week1': {
-        date: 'Tuesday, 23 July 2025',
+        date: 'Wednesday, 23 July 2025',
         title: 'Day 2 - Technology Assessment & Site Analysis',
         content: `
             <h3>Technology Comparison Matrix</h3>
@@ -24,7 +24,7 @@ const contentData = {
         `
     },
     'day3-week1': {
-        date: 'Wednesday, 24 July 2025',
+        date: 'Thursday, 24 July 2025',
         title: 'Day 3 - LiDAR Technology Deep Dive',
         content: `
             <h3>LiDAR Technology Research</h3>
@@ -35,7 +35,7 @@ const contentData = {
         `
     },
     'day4-week1': {
-        date: 'Thursday, 25 July 2025',
+        date: 'Friday, 25 July 2025',
         title: 'Day 4 - Concept Development & Initial Prototyping',
         content: `
             <h3>Solution Conceptualization</h3>
@@ -46,7 +46,7 @@ const contentData = {
         `
     },
     'pitch-week1': {
-        date: 'Friday, 26 July 2025',
+        date: 'Friday, 25 July 2025',
         title: 'Weekly Pitch 1 - Project Foundation & LiDAR Proposal',
         content: `
             <div class="video-container">
@@ -121,7 +121,7 @@ const contentData = {
         `
     },
     'pitch-week2': {
-        date: 'Saturday, 2 August 2025',
+        date: 'Friday, 1 August 2025',
         title: 'Weekly Pitch 2 - Prototype Demonstration & Testing Results',
         content: `
             <div class="video-container">
