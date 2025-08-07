@@ -358,6 +358,12 @@ header {
     margin-bottom: 1rem;
 }
 
+.overview-proud {
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Arrange items vertically */
+    gap: 2rem; /* Add spacing between items */
+}
+
 /* Dynamic Content Styles */
 .entry-header {
     background: white;
