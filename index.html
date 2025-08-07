@@ -1,162 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Measuring Kibble Palace Footfall - LiDAR Solution</title>
-    <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/indexv2.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  </head>
+  <body class="bg-white text-gray-800">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
     <!-- Header -->
-    <header>
-        <nav>
-            <div class="nav-container">
-                <a href="#" class="logo">
-                    <div class="logo-icon">🏛️</div>
-                    Team 11 - Kibble Palace Footfall Analytics
-                </a>
-                <ul class="nav-menu">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link active">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">About Us</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="journey.html" class="nav-link dropdown-toggle">Project Journey</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="journey.html#requirements" class="dropdown-link">Requirements</a></li>
-                            <li><a href="journey.html#comparison" class="dropdown-link">Comparison</a></li>
-                            <li><a href="journey.html#design-process" class="dropdown-link">Methodology</a></li>
-                            <li><a href="journey.html#prototypes" class="dropdown-link">Design Process</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="portfolio.html" class="nav-link dropdown-toggle">Documentation</a>
-                    </li>
-                </ul>
-                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
-        </nav>
+    <header class="bg-emerald-200 shadow z-50 relative">
+      <nav
+        class="container mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <a href="#" class="flex items-left text-xl">
+          Team 11 - Kibble Palace Footfall Analytics
+        </a>
+
+        <ul class="hidden md:flex gap-6 text-sm font-medium">
+          <li><a href="index.html" class="text-black">Home</a></li>
+          <!-- active -->
+          <li>
+            <a href="about.html" class="text-neutral-600 hover:text-black"
+              >About Us</a
+            >
+          </li>
+          <li class="relative group">
+            <a href="journey.html" class="text-neutral-600 hover:text-black"
+              >Project Journey</a
+            >
+            <ul
+              class="absolute hidden group-hover:block bg-white shadow mt-2 p-2 space-y-1 rounded"
+            >
+              <li>
+                <a
+                  href="journey.html#requirements"
+                  class="block px-4 py-1 hover:bg-gray-100"
+                  >Requirements</a
+                >
+              </li>
+              <li>
+                <a
+                  href="journey.html#comparison"
+                  class="block px-4 py-1 hover:bg-gray-100"
+                  >Comparison</a
+                >
+              </li>
+              <li>
+                <a
+                  href="journey.html#design-process"
+                  class="block px-4 py-1 hover:bg-gray-100"
+                  >Methodology</a
+                >
+              </li>
+              <li>
+                <a
+                  href="journey.html#prototypes"
+                  class="block px-4 py-1 hover:bg-gray-100"
+                  >Design Process</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="portfolio.html" class="text-neutral-500 hover:text-black"
+              >Documentation</a
+            >
+          </li>
+        </ul>
+
+        <button
+          class="md:hidden flex flex-col gap-1"
+          aria-label="Toggle mobile menu"
+        >
+          <span class="w-6 h-0.5 bg-gray-700"></span>
+          <span class="w-6 h-0.5 bg-gray-700"></span>
+          <span class="w-6 h-0.5 bg-gray-700"></span>
+        </button>
+      </nav>
     </header>
 
     <!-- Main Content -->
     <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Measuring Kibble Palace Footfall with LiDAR Technology</h1>
-                <p class="hero-subtitle">Helping the Kibble Palace accurately count visitor numbers using LiDAR sensing technology that respects the building's heritage status while providing detailed analytics.</p>
-            </div>
-        </section>
+      <!-- Hero Section -->
+      <section
+        class="relative bg-[url('img/kibble_palace.png')] bg-cover bg-center min-h-[90vh] text-white flex items-center justify-center"
+      >
+        <!-- Full-section overlay -->
+        <div class="absolute inset-0 bg-black bg-opacity-50 z-0"></div>
 
-        <!-- Overview Section -->
-        <section class="overview">
-            <div class="container">
-                <h2 class="section-title">Project Overview</h2>
-                <div class="overview-grid">
-                    <div class="overview-card">
-                        <div class="card-icon">👥</div>
-                        <h3>Stakeholders</h3>
-                        <p>This project is in collaboration with the Friends of Glasgow, with the goal of coming up with a solution that provides accurate footfall analytics for the Kibble Palace.</p>
-                    </div>
-                    <div class="overview-card">
-                        <div class="card-icon">🏛️</div>
-                        <h3>The Challenge</h3>
-                        <p>The Kibble Palace, a 19th-century glasshouse and Category A Listed building, lacks accurate visitor counting systems. The team has been tasked to come up with a solution for detailed footfall analytics without compromising the building's heritage integrity.</p>
-                    </div>
-                    <div class="overview-card">
-                        <div class="card-icon">📡</div>
-                        <h3>Our LiDAR Solution</h3>
-                        <p>A non-invasive LiDAR-based visitor counting system that provides real-time analytics without physical modifications to the building. Our custom solution provides accurate visitor count with cost and space efficiency in mind.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <!-- Hero content -->
+        <div
+          class="relative z-10 container mx-auto px-4 text-center"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-easing="ease-out"
+        >
+          <h1 class="text-4xl font-bold mb-4">
+            Measuring Kibble Palace Footfall with LiDAR Technology
+          </h1>
+          <p class="text-lg max-w-3xl mx-auto">
+            Helping the Kibble Palace accurately count visitor numbers using
+            LiDAR sensing technology that respects the building's heritage
+            status while providing detailed analytics.
+          </p>
+        </div>
+      </section>
 
-        <!-- Key Features Section -->
-        <section class="features">
-            <div class="container">
-                <h2 class="section-title">Our Approach</h2>
-                <div class="features-grid">
-                    <div class="feature-item">
-                        <h3>LiDAR Sensor</h3>
-                        <p>Strategic placement of the LiDAR sensor at the key common access point helps accurately detect and count visitors without requiring structural modifications to the heritage building.</p>
-                    </div>
-                    <div class="feature-item">
-                        <h3>Budget Friendly</h3>
-                        <p>Using the Raspberry Pi and low-cost LiDAR sensors, we developed a budget-friendly solution that meets the project's financial constraints while delivering accurate visitor tracking.</p>
-                    </div>
-                    <div class="feature-item">
-                        <h3>Heritage Compliance</h3>
-                        <p>Solution designed specifically with the building's status in mind, ensuring no significant physical alterations while providing comprehensive visitor tracking suitable for historic plant and animal environments.</p>
-                    </div>
-                    <div class="feature-item">
-                        <h3>Data Visualization</h3>
-                        <p>Data collected by the LiDAR sensor is sent to the interactive dashboard through the attached Raspberry Pi, enabling real-time monitoring and analysis of visitor patterns.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <!-- Project Overview -->
+      <section class="py-16 min-h-[90vh]">
+        <div class="container mx-auto px-4">
+          <h2 class="text-[1.5rem] font-bold text-center mb-10">
+            Project Overview
+          </h2>
+         <div class="grid md:grid-cols-3 gap-8 h-[70vh]">
+  <!-- Card 1 -->
+  <div class="text-center p-8 border rounded shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col justify-center h-full"
+       data-aos="flip-left"
+    data-aos-duration="1200"
+    data-aos-delay="200"
+    data-aos-easing="ease-in-out">
+    <div class="flex flex-col items-center space-y-6">
+      <div class="text-7xl"><i class="bi bi-people"></i></div>
+      <h3 class="text-3xl font-bold">Stakeholders</h3>
+      <p class="text-lg leading-relaxed max-w-xs">
+        This project is in collaboration with the Friends of Glasgow, with the goal of coming up with a solution that provides accurate footfall analytics for the Kibble Palace.
+      </p>
+    </div>
+  </div>
 
-        <!-- Timeline Section -->
-        <section class="timeline">
-            <div class="container">
-                <h2 class="section-title">Project Timeline</h2>
-                <div class="timeline-container">
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h3>Week 1: Research & Discovery</h3>
-                            <p>Conducted site analysis of the Kibble Palace, researched Listed Building constraints, investigated existing visitor counting technologies, and explored LiDAR capabilities for heritage environments.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h3>Week 2: LiDAR Prototyping & Testing</h3>
-                            <p>Created physical prototype for the LiDAR sensor and the Kibble Palace environment and completed the interactive dashboard interface.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h3>Week 3: Finalisation of Prototype & Poster</h3>
-                            <p>Refined the physical prototype for the LiDAR sensor and the Kibble Palace environment, and finalized the project poster.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <!-- Card 2 -->
+  <div class="text-center p-8 border rounded shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col justify-center h-full"
+        data-aos="flip-left"
+    data-aos-duration="1200"
+    data-aos-delay="400"
+    data-aos-easing="ease-in-out">
+    <div class="flex flex-col items-center space-y-6">
+      <div class="text-7xl"><i class="bi bi-question-circle"></i></div>
+      <h3 class="text-3xl font-bold">The Challenge</h3>
+      <p class="text-lg leading-relaxed max-w-xs">
+        The Kibble Palace, a 19th-century glasshouse and Category A Listed building, lacks accurate visitor counting systems.
+      </p>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="text-center p-8 border rounded shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col justify-center h-full"
+         data-aos="flip-left"
+    data-aos-duration="1200"
+    data-aos-delay="600"
+    data-aos-easing="ease-in-out">
+    <div class="flex flex-col items-center space-y-6">
+      <div class="text-7xl"><i class="bi bi-lightbulb"></i></div>
+      <h3 class="text-3xl font-bold">Our LiDAR Solution</h3>
+      <p class="text-lg leading-relaxed max-w-xs">
+        A non-invasive LiDAR-based visitor counting system that provides real-time analytics without physical modifications to the building.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+          
+          </div>
+        </div>
+      </section>
+
+      <!-- Key Features -->
+ <section class="bg-gray-50 py-16 min-h-[90vh] flex items-center">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">Our Approach</h2>
+    <div class="grid md:grid-cols-2 gap-8 h-[60vh]">
+
+      <!-- Card 1 -->
+      <div class="flex flex-col justify-center items-center text-center p-8 border rounded shadow-lg bg-white h-full hover:shadow-2xl transition duration-300"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        data-aos-delay="100"
+        data-aos-easing="ease-in-out"
+      >
+        <div class="text-6xl mb-6">📡</div>
+        <h3 class="text-2xl font-bold mb-4">LiDAR Sensor</h3>
+        <p class="text-lg leading-relaxed max-w-sm">
+          Strategic placement of the LiDAR sensor helps accurately detect and count visitors without requiring structural modifications.
+        </p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="flex flex-col justify-center items-center text-center p-8 border rounded shadow-lg bg-white h-full hover:shadow-2xl transition duration-300"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        data-aos-delay="100"
+        data-aos-easing="ease-in-out"
+      >
+        <div class="text-6xl mb-6"><i class="bi bi-currency-pound"></i></div>
+        <h3 class="text-2xl font-bold mb-4">Budget Friendly</h3>
+        <p class="text-lg leading-relaxed max-w-sm">
+          Using Raspberry Pi and low-cost LiDAR sensors, we developed a budget-friendly solution that meets financial constraints.
+        </p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="flex flex-col justify-center items-center text-center p-8 border rounded shadow-lg bg-white h-full hover:shadow-2xl transition duration-300"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        data-aos-delay="300"
+        data-aos-easing="ease-in-out"
+      >
+        <div class="text-6xl mb-6"><i class="bi bi-buildings"></i></div>
+        <h3 class="text-2xl font-bold mb-4">Heritage Compliance</h3>
+        <p class="text-lg leading-relaxed max-w-sm">
+          Designed with the building's heritage status in mind, ensuring no physical alterations while tracking visitors effectively.
+        </p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="flex flex-col justify-center items-center text-center p-8 border rounded shadow-lg bg-white h-full hover:shadow-2xl transition duration-300"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        data-aos-delay="300"
+        data-aos-easing="ease-in-out"
+      >
+        <div class="text-6xl mb-6"><i class="bi bi-bar-chart-line"></i></div>
+        <h3 class="text-2xl font-bold mb-4">Data Visualization</h3>
+        <p class="text-lg leading-relaxed max-w-sm">
+          LiDAR data is sent to the interactive dashboard via Raspberry Pi for real-time monitoring and visitor analytics.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+      <!-- Timeline -->
+  <section class="py-16 min-h-[90vh] bg-white flex items-center">
+  <div class="container mx-auto px-4 relative">
+
+    <!-- Section Title -->
+    <h2 class="text-3xl font-bold text-center mb-20">Project Timeline</h2>
+
+    <!-- Vertical Line (starts below title) -->
+    <div class="absolute top-36 left-1/2 transform -translate-x-1/2 h-[calc(100%-9rem)] w-1 bg-emerald-200 z-0"></div>
+
+    <!-- Timeline Items -->
+    <div class="space-y-28 relative z-10">
+
+      <!-- Week 1 -->
+      <div class="flex justify-start items-center w-full relative">
+        <!-- Content Left -->
+        <div class="w-1/2 pr-8 text-right" data-aos="fade-right">
+          <h3 class="text-xl font-bold mb-2">Week 1: Research & Discovery</h3>
+          <p class="text-gray-700">
+            Conducted site analysis, studied heritage constraints, and explored LiDAR applications.
+          </p>
+        </div>
+        <!-- Dot -->
+        <div class="absolute left-1/2 transform -translate-x-1/2 w-5 h-5 bg-white border-4 border-emerald-200 rounded-full z-10"></div>
+        <!-- Empty Right -->
+        <div class="w-1/2"></div>
+      </div>
+
+      <!-- Week 2 -->
+      <div class="flex justify-end items-center w-full relative">
+        <!-- Empty Left -->
+        <div class="w-1/2"></div>
+        <!-- Dot -->
+        <div class="absolute left-1/2 transform -translate-x-1/2 w-5 h-5 bg-white border-4 border-emerald-200 rounded-full z-10"></div>
+        <!-- Content Right -->
+        <div class="w-1/2 pl-8 text-left" data-aos="fade-left">
+          <h3 class="text-xl font-bold mb-2">Week 2: LiDAR Prototyping & Testing</h3>
+          <p class="text-gray-700">
+            Built a LiDAR prototype and completed the dashboard interface.
+          </p>
+        </div>
+      </div>
+
+      <!-- Week 3 -->
+      <div class="flex justify-start items-center w-full relative">
+        <!-- Content Left -->
+        <div class="w-1/2 pr-8 text-right" data-aos="fade-right">
+          <h3 class="text-xl font-bold mb-2">Week 3: Finalisation of Prototype & Poster</h3>
+          <p class="text-gray-700">
+            Refined the LiDAR system and finalized the presentation materials.
+          </p>
+        </div>
+        <!-- Dot -->
+        <div class="absolute left-1/2 transform -translate-x-1/2 w-5 h-5 bg-white border-4 border-emerald-200 rounded-full z-10"></div>
+        <!-- Empty Right -->
+        <div class="w-1/2"></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
     </main>
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-info">
-                    <p><strong>University of Glasgow | Team 11</strong></p>
-                </div>
-                <div class="team-members">
-                    <h4>Team Members</h4>
-                    <div class="members-grid">
-                        <span>Monika</span>
-                        <span>Zheng Yan</span>
-                        <span>Jin Quan</span>
-                        <span>Claris</span>
-                        <span>Yu Heng</span>
-                        <span>Yong Sheng</span>
-                    </div>
-                </div>
+    <footer class="bg-gray-100 py-8 mt-16">
+      <div class="container mx-auto px-4">
+        <div
+          class="flex flex-col md:flex-row justify-between items-start gap-6"
+        >
+          <div>
+            <p class="font-semibold">University of Glasgow | Team 11</p>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-2">Team Members</h4>
+            <div class="grid grid-cols-2 gap-2 text-sm">
+              <span>Monika</span>
+              <span>Zheng Yan</span>
+              <span>Jin Quan</span>
+              <span>Claris</span>
+              <span>Yu Heng</span>
+              <span>Yong Sheng</span>
             </div>
+          </div>
         </div>
+      </div>
     </footer>
 
     <script src="js/index.js"></script>
-</body>
+  </body>
 </html>

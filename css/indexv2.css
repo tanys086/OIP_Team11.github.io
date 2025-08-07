@@ -1,0 +1,14 @@
+/* Enhance styles for Project Overview section */
+.project-overview-icon {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.project-overview-title {
+  font-size: 1.5rem;
+}
+
+.project-overview-text {
+  font-size: 1.3rem;
+  margin-top: 1em;
+}
