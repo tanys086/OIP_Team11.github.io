@@ -273,35 +273,38 @@ const contentData = {
     },
     'day3-week3': {
         date: '6 August 2025',
-        title: 'Day 12 - Data Validation & Accuracy Assessment',
+        title: 'Day 12 - Digital Platform Development',
         content: `
-            <h3>Accuracy Validation Study</h3>
-            <p>Conducted comprehensive accuracy validation by comparing LiDAR counting results with manual observer counts throughout the day. Achieved excellent correlation between automated and manual counting methods, validating our system's reliability. Identified specific scenarios where accuracy could be further improved through algorithm refinement.</p>
+            <h3>Website Development</h3>
+            <p>Following the completion and submission of our poster, we started to develop the structure of our project website. This will first include the Home page and About Us page.</p>
+
+            <h3>Home Page</h3>
+            <p>The Home page will consist of a brief initial description of our project, followed by a project overview that will introduce our stakeholders, problem statement and solution for our project. The Home page will also explain our approach to the problem statement that we are trying to tackle, as well as a project timeline that summarizes the activities of each week in our project.</p>
             
-            <h3>Environmental Impact Assessment</h3>
-            <p>Assessed system impact on the Kibble Palace environment, including effects on plant health and visitor experience. Confirmed minimal environmental disruption and positive feedback from staff regarding non-intrusive nature of LiDAR sensors. Validated compliance with all heritage building preservation requirements.</p>
+            <h3>About Us Page</h3>
+            <p>The About Us page will consist of our team photo, as well as a brief description of each member of our team, their role in the project, and their contributions to the project. Our respective Github and LinkedIn links can also be found here.</p>
         `
     },
     'day4-week3': {
         date: '7 August 2025',
-        title: 'Day 13 - System Refinement & Optimization',
+        title: 'Day 13 - Digital Platform Development',
         content: `
-            <h3>Algorithm Enhancement</h3>
-            <p>Refined visitor detection algorithms based on real-world performance data and environmental observations. Implemented advanced filtering techniques to improve accuracy in challenging conditions such as group movements and varying lighting. Enhanced system robustness for long-term operational reliability.</p>
+            <h3>Website Completion</h3>
+            <p>We continued to develop our project website by proceeding to add our project data into the website. This will include the Project Journey page, which will depict our journey in the development of our project, as well as the Documentation page, which will document the daily progression of every day in our project.</p>
             
-            <h3>Dashboard Feature Enhancement</h3>
-            <p>Enhanced dashboard functionality based on user feedback from Glasgow City Council staff. Added advanced analytics features including visitor pattern analysis, peak time predictions, and comparative reporting tools. Improved user interface responsiveness and added customizable reporting options for different stakeholder needs.</p>
+            <h3>Project Journey Page</h3>
+            <p>The Project Journey page will consist of 4 sections: Requirements, Comparison, Methodology and Design Process. The Requirements section depicts the requirements that we have learned from consulting our stakeholder and fellow visitors, the insights that we have inferred from them, and the lessons that we have picked up from them. The Comparison section will compare the existing visitor counting technologies with our proposed solution, the Methodology section will outline the approach that we have taken to solve the problem, and the Design Process section will detail the design process that we have followed to create our solution.</p>
+
+            <h3>Documentation Page</h3>
+            <p>The Documentation page will consist of the 3 weeks of progress that we have achieved in our project, which are divided into the days in which we have worked on our project for each week. Our weekly videos are also shown according to the week that it was made in. Aside from that, the Team Contract, Future Works, Reflection and Proud Page tabs can be found here as well. The Team Contract tab solidifies our commitment in the completion of our project, The Future Works tab suggests potential advancements that our solution might adopt for improvement in the future, The Reflection tab displays the overall reflection that we as a team have as a closing statement, and the Proud Page tab is an essay explaining what we are proud of, or not proud of, about the work produced in our project.</p>
         `
     },
     'day5-week3': {
         date: '8 August 2025',
-        title: 'Day 14 - Final Testing & Documentation',
+        title: 'Day 14 - Digital Platform Completion and Exhibition Presentation',
         content: `
-            <h3>Comprehensive System Testing</h3>
-            <p>Conducted final comprehensive testing of the complete visitor analytics system under various operational scenarios. Validated system performance during peak visitor hours, special events, and different weather conditions. Confirmed reliable operation and accurate data collection across all testing parameters.</p>
-            
-            <h3>Final Documentation & Handover Preparation</h3>
-            <p>Completed comprehensive system documentation including technical specifications, operational procedures, and maintenance guidelines. Prepared handover materials for Glasgow City Council including training resources and ongoing support procedures. Finalized project deliverables and prepared for final presentation to stakeholders.</p>
+            <h3>Final Documentation and Exhibition</h3>
+            <p>After checking the final touches of our project website, we decided to make a presentation to our stakeholders. This presentation will be a 3-minute pitch that will showcase our project, as well as the progress that we have made in our project. The presentation is done in front of our stakeholders in an exhibition setting. We also displayed our poster in the exhibition for visitors to get a good idea of what our project is about.</p>
         `
     },
 
