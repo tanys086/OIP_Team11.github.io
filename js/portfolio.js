@@ -2,7 +2,7 @@
 const contentData = {
     // Week 1 Days
     'day1-week1': {
-        date: 'Monday, 22 July 2025',
+        date: '22 July 2025',
         title: 'Day 1 - Project Kickoff & Stakeholder Discovery',
         content: `
             <h3>Project Launch & Initial Discoveries</h3>
@@ -24,7 +24,7 @@ const contentData = {
     },
 
     'day2-week1': {
-        date: 'Tuesday, 23 July 2025',
+        date: '23 July 2025',
         title: 'Day 2 - Team Formation & Solution Ideation',
         content: `
             <h3>Team Structure & Documentation</h3>
@@ -52,7 +52,7 @@ const contentData = {
     },
 
     'day3-week1': {
-    date: 'Wednesday, 24 July 2025',
+    date: '24 July 2025',
     title: 'Day 3 - Early Prototyping & User Empathy Discovery',
     content: `
         <h3>Documentation & Creative Exploration</h3>
@@ -82,7 +82,7 @@ const contentData = {
     },
 
     'day4-week1': {
-        date: 'Thursday, 25 July 2025',
+        date: '25 July 2025',
         title: 'Day 4 - Video Completion & Prototype Development Planning',
         content: `
             <h3>Week 1 Documentation Milestone</h3>
@@ -106,7 +106,7 @@ const contentData = {
     },
 
     'pitch-week1': {
-        date: 'Friday, 25 July 2025',
+        date: '25 July 2025',
         title: 'Weekly Pitch 1 - Project Foundation & LiDAR Proposal',
         content: `
             <div class="video-container">
@@ -121,7 +121,7 @@ const contentData = {
 
     // Week 2 Days
     'day1-week2': {
-        date: 'Monday, 28 July 2025',
+        date: '28 July 2025',
         title: 'Day 5 - Material Procurement & Multi-Track Development',
         content: `
             <h3>Resource Acquisition & Physical Prototype Preparation</h3>
@@ -143,7 +143,7 @@ const contentData = {
     },
 
     'day2-week2': {
-        date: 'Tuesday, 29 July 2025',
+        date: '29 July 2025',
         title: 'Day 6 - Integrative Thinking & Solution Refinement',
         content: `
             <h3>Strategic Technology Comparison Using Pro-Pro Analysis</h3>
@@ -166,7 +166,7 @@ const contentData = {
         `
     },
     'day3-week2': {
-        date: 'Wednesday, 30 July 2025',
+        date: '30 July 2025',
         title: 'Day 7 - Physical Prototype Construction & Demonstration Preparation',
         content: `
             <h3>Tangible Technology Implementation</h3>
@@ -189,7 +189,7 @@ const contentData = {
         `
     },
     'day4-week2': {
-        date: 'Thursday, 31 July 2025',
+        date: '31 July 2025',
         title: 'Day 8 - Visitor Insights & Privacy-Centered Design Evolution',
         content: `
             <h3>Direct Stakeholder Engagement & User Perspective</h3>
@@ -207,7 +207,7 @@ const contentData = {
         `
     },
     'day5-week2': {
-        date: 'Friday, 1 August 2025',
+        date: '1 August 2025',
         title: 'Day 9 - Prototype Refinement & Week 2 Documentation Completion',
         content: `
             <h3>Technical Development Consolidation</h3>
@@ -230,7 +230,7 @@ const contentData = {
         `
     },
     'pitch-week2': {
-        date: 'Friday, 1 August 2025',
+        date: '1 August 2025',
         title: 'Weekly Pitch 2 - Prototype Demonstration & Testing Results',
         content: `
             <div class="video-container">
@@ -244,7 +244,7 @@ const contentData = {
 
     // Week 3 Days
     'day1-week3': {
-        date: 'Monday, 4 August 2025',
+        date: '4 August 2025',
         title: 'Day 10 - Stakeholder Validation & Final Development Push',
         content: `
             <h3>Successful Stakeholder Engagement</h3>
@@ -258,7 +258,7 @@ const contentData = {
         `
     },
     'day2-week3': {
-        date: 'Tuesday, 5 August 2025',
+        date: '5 August 2025',
         title: 'Day 11 - Poster Completion & Digital Platform Development',
         content: `
             <h3>Poster Milestone Achievement</h3>
@@ -272,7 +272,7 @@ const contentData = {
         `
     },
     'day3-week3': {
-        date: 'Wednesday, 6 August 2025',
+        date: '6 August 2025',
         title: 'Day 12 - Data Validation & Accuracy Assessment',
         content: `
             <h3>Accuracy Validation Study</h3>
@@ -283,7 +283,7 @@ const contentData = {
         `
     },
     'day4-week3': {
-        date: 'Thursday, 7 August 2025',
+        date: '7 August 2025',
         title: 'Day 13 - System Refinement & Optimization',
         content: `
             <h3>Algorithm Enhancement</h3>
@@ -294,7 +294,7 @@ const contentData = {
         `
     },
     'day5-week3': {
-        date: 'Friday, 8 August 2025',
+        date: '8 August 2025',
         title: 'Day 14 - Final Testing & Documentation',
         content: `
             <h3>Comprehensive System Testing</h3>
