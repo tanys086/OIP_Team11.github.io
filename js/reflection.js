@@ -1,7 +1,7 @@
 // Content data for each entry
 const contentData = {
   // reflect 1 Days
-    interaction1: {
+  interaction1: {
     date: "22 July 2025",
     title: "Interaction 1 - The Friends of Glasgow Botanic Gardens",
     content: `
@@ -27,10 +27,9 @@ const contentData = {
 
         <p>This experience taught us the importance of preparation and critical questioning when engaging with stakeholders. By learning how to ask effective, unbiased questions and applying the MOM Test, we were able to focus on understanding the real problem rather than jumping to premature solutions. The interview not only clarified the stakeholder’s priorities, such as accuracy, cost-effectiveness, and non-intrusiveness, but also revealed the constraints posed by the heritage status of the Kibble Palace. It taught us that successful design requires more than technical feasibility, it demands sensitivity to context, sustainability, and long-term practicality. The insights we gained shaped our direction and reminded us that understanding the needs and limitations from the outset is key to creating meaningful, user-aligned solutions.</p>
     `,
-    },
+  },
 
-
-    interaction2: {
+  interaction2: {
     date: "31 July 2025",
     title: "Interaction 2 -  Visitor to the Glasgow Botanic Garden",
     content: `
@@ -55,10 +54,9 @@ const contentData = {
 
         <p>This interaction reinforced the critical importance of centering the user experience when designing technology for public spaces. While operational goals such as accuracy and cost are essential, the visitor’s feedback highlighted that comfort, privacy, and consent are equally vital. We learned that people want to maintain control over their personal data and prefer transparency around how and when data is collected. The strong preference for minimal, short-term tracking and non-contact technology emphasizes the need for solutions that are as unobtrusive and respectful as possible. These insights deepened our understanding that technological innovation must be balanced with ethical considerations and public trust. Integrating these values into our design ensures that our solution is not only effective but also socially responsible and user-friendly in sensitive environments like public gardens.</p>
     `,
-    },
+  },
 
-
-    interaction3: {
+  interaction3: {
     date: "4 August 2025",
     title: "Interaction 3 - The Friends of Glasgow Botanic Gardens",
     content: `
@@ -67,11 +65,9 @@ const contentData = {
 
         <p>This interaction provided valuable validation that our prototype is heading in the right direction, boosting our confidence in the approach we have taken so far. Positive feedback from a knowledgeable community representative reinforced that our design addresses key needs effectively. At the same time, her suggestion about incorporating inclusivity reminded us of the importance of considering diverse user needs. It highlighted that even at the prototyping stage, there is room to expand the solution’s accessibility and relevance. This feedback encourages us to think beyond technical functionality and focus on creating an inclusive product that serves all members of the community.</p>
     `,
-    },
+  },
 
-
-
-    prototype: {
+  prototype: {
     date: "8 August 2025",
     title: "Prototyping Process Reflection",
     content: `
@@ -99,8 +95,7 @@ const contentData = {
 
         <p>Throughout the project, we learned the critical value of remaining flexible and open to change, adapting our approach as new insights emerged. Overall, this process highlighted the significance of flexibility, critical reflection, teamwork, and user-centered design in creating meaningful, effective solutions.</p>
     `,
-    },
-
+  },
 
   "pitch-reflect1": {
     date: "25 July 2025",
@@ -114,6 +109,94 @@ const contentData = {
             </div>
             
         `,
+  },
+  "usability-week2": {
+    date: "7 August 2025",
+    title: "Usability Test",
+    content: `
+    <h3>🔍 How the Usability Test Was Conducted</h3>
+    <div class="usability-images">
+  <img src="img/dashboard(1).png" alt="Dashboard Screenshot 1">
+  <img src="img/dashboard(2).png" alt="Dashboard Screenshot 2">
+</div>
+    <p>To evaluate the intuitiveness of our dashboard, we designed a usability test using a combination of the <strong>Think Aloud Protocol</strong> and the <strong>Wizard of Oz technique</strong>. Participants were asked to perform realistic tasks while verbalizing their thoughts. This allowed us to capture their immediate reactions, confusion, and decision-making process in real time.</p>
+    <p>Before the test, we created a task list and defined user goals based on key functions of the dashboard. Participants were reminded that the test was about the <em>design</em>, not their performance, and were encouraged to speak freely throughout the session.</p>
+
+
+    <h3>📝 Usability Test Script</h3>
+    <p><em>Facilitator script used to brief participants:</em></p>
+    <blockquote>
+      Thank you for participating in our usability test. Today, we’ll be testing how intuitive our dashboard is to use. We’re not testing you—we’re testing the design, so there are no right or wrong answers. Please feel free to speak your thoughts out loud as you go through each task.<br><br>
+      I may not answer questions during the test, but if you're unsure what to do, just let me know what you're thinking and try your best.<br><br>
+      Imagine you are part of the Kibble Palace team.
+    </blockquote>
+
+    <h3>🧪 Task List</h3>
+
+<p><strong>Task 1:</strong> You want to find out how many visitors attended a specific event, <em>“Bard in the Botanics – Romeo & Juliet.”</em></p>
+
+<p><strong>Task 2:</strong> Now you want to add a new incoming event called <em>“Kibby Palace Juniors Explore”</em>, dated <strong>8/8/2025</strong>, scheduled at <strong>11:00 AM</strong> with an expected number of guests: <strong>25</strong>.</p>
+
+<p><strong>Task 3:</strong> Now you need to edit that event such that the number of expected guests is updated to <strong>30</strong>.</p>
+
+<p>These tasks allowed us to observe user interaction patterns, identify usability issues, and ultimately improve the dashboard experience based on real user behavior and feedback.</p>
+
+   <h3>🧿 Observations & Results</h3>
+
+<div class="usability-task">
+  <h4><strong>Task 1: View Visitor Numbers for a Specific Event</strong></h4>
+  <p><span style="font-weight: 500;">Observation:</span> The user’s intuitive action was to click on the event row in the mini table shown on the dashboard, expecting it to lead to more event details. After struggling, they noticed the sidebar, navigated to the “Events” tab, and finally found the information.</p>
+  <p><span style="font-weight: 500;">Result:</span> This revealed that users expected the dashboard table to be interactive. Based on this, we updated the design to make event rows clickable, linking directly to detailed event pages.</p>
+</div>
+
+<div class="usability-task">
+  <h4><strong>Task 2: Add a New Event</strong></h4>
+  <p><span style="font-weight: 500;">Observation:</span> The user managed to find the “Add Event” button. However, upon clicking it, no modal or new screen appeared. The user became confused and looked to the facilitator for guidance. We hinted at moving to the next task.</p>
+  <p><span style="font-weight: 500;">Result:</span> The lack of immediate feedback or visible confirmation led to uncertainty. We recognized the need to provide a clear popup or redirection to an event form to improve user flow.</p>
+</div>
+
+<div class="usability-task">
+  <h4><strong>Task 3: Edit an Existing Event</strong></h4>
+  <p><span style="font-weight: 500;">Observation:</span> The user clicked on the “Edit” button for the event. However, since there was no visible change or feedback on the screen, the user was unsure whether anything had happened and expressed confusion.</p>
+  <p><span style="font-weight: 500;">Result:</span> This indicated that the edit interaction lacked sufficient visual feedback. A modal or inline form should be triggered clearly to confirm that the user has entered editing mode.</p>
+</div>
+
+<h3>💬 Feedback from the Participant</h3>
+
+<ul style="list-style-type: none; padding-left: 0;">
+  <li style="margin-bottom: 12px;">
+    <em>"For Task 1, my instinct was to click on the table row to view insights. It would be great if there was a button or link there that led directly to the event details."</em>
+  </li>
+  <li style="margin-bottom: 12px;">
+    <em>"For Tasks 2 and 3, I wasn’t even sure if I had completed the tasks. I wish the process was more intuitive, like how it works on actual websites."</em>
+  </li>
+  <li>
+    <em>"I think having more visible insights, like footfall tracking, would make the experience more intuitive and informative."</em>
+  </li>
+</ul>
+
+<h3>✅ Improvements Implemented</h3>
+
+<ul style="list-style-type: disc; padding-left: 20px;">
+ <div class="improvements-images">
+  <img src="img/newDashboard.png" alt="New Dashboard View 1">
+  
+  <li style="margin-bottom: 12px;">
+    A <strong>"View Events"</strong> button was added directly within the dashboard table area. This change aligns with user intuition, enabling quicker access to event details from the main interface.
+  </li>
+  <div class="improvements-images">
+
+  <img src="img/newDashboard2.png" alt="New Dashboard View 2">
+  <img src="img/newDashboard3.png" alt="New Dashboard View 3">
+</div>
+  <li>
+    A new <strong>"Analysis"</strong> tab was introduced in the sidebar to allow users to view individual footfall trends by specific <strong>dates</strong> and <strong>months</strong>. This enhancement provides more focused insights and supports better decision-making.
+  </li>
+  
+</ul>
+
+
+  `,
   },
 
   // Additional Pages
