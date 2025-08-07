@@ -127,21 +127,27 @@ document.querySelectorAll('.profile-card').forEach(card => {
 // Social link interaction tracking
 document.querySelectorAll('.social-link').forEach(link => {
     link.addEventListener('click', function(e) {
-        e.preventDefault(); // Remove this line when you add real URLs
-        
-        const platform = this.classList.contains('github') ? 'GitHub' : 'LinkedIn';
-        const profileName = this.closest('.profile-card').querySelector('.profile-name').textContent;
-        
-        console.log(`Clicked ${platform} link for ${profileName}`);
-        
-        // Add your actual social media URLs here
-        // window.open(actualURL, '_blank');
-        
-        // Temporary feedback for demo
-        this.style.transform = 'scale(0.95)';
-        setTimeout(() => {
-            this.style.transform = '';
-        }, 150);
+        // Only prevent default behavior for placeholder links
+        if (this.getAttribute('href') === '#') {
+            e.preventDefault();
+            
+            const platform = this.classList.contains('github') ? 'GitHub' : 'LinkedIn';
+            const profileName = this.closest('.profile-card').querySelector('.profile-name').textContent;
+            
+            console.log(`Clicked placeholder ${platform} link for ${profileName}`);
+            
+            // Temporary feedback for placeholder links
+            this.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                this.style.transform = '';
+            }, 150);
+        } else {
+            // For real URLs, let the default behavior happen (navigate to the link)
+            const platform = this.classList.contains('github') ? 'GitHub' : 'LinkedIn';
+            const profileName = this.closest('.profile-card').querySelector('.profile-name').textContent;
+            
+            console.log(`Navigating to ${platform} profile for ${profileName}`);
+        }
     });
 });
 
