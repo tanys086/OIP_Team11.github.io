@@ -212,12 +212,15 @@ const contentData = {
     </div>
 
     <h3>📈 SUS Score Calculation</h3>
-    <p>We applied the standard SUS formula:</p>
-    <ul>
-      <li>For odd-numbered questions: Score = response - 1</li>
-      <li>For even-numbered questions: Score = 5 - response</li>
-    </ul>
-    <p>The adjusted score total was 37, giving a final SUS score of:</p>
+    <div style="text-align: center;">
+  <p>We applied the standard SUS formula:</p>
+  <ul style="display: inline-block; text-align: left;">
+    <li>For odd-numbered questions: Score = response - 1</li>
+    <li>For even-numbered questions: Score = 5 - response</li>
+  </ul>
+  <p>The adjusted score total was 37, giving a final SUS score of: 92.5</p>
+</div>
+
 
     <h3>🧠 Reflection & Insights</h3>
     <p>The table below summarizes the system's strengths and the usability pain points that have been addressed through iterative improvements.</p>
@@ -232,19 +235,19 @@ const contentData = {
       <tbody>
         <tr>
           <td style="padding: 10px; border: 1px solid #ddd;">Users could complete tasks (view/edit events, analyze trends) with little to no guidance.</td>
-          <td style="padding: 10px; border: 1px solid #ddd;">A <strong>“Show All Events” button</strong> was added to give users direct access to full event details ✅</td>
+          <td style="padding: 10px; border: 1px solid #ddd;">A <strong>“Show All Events” button</strong> was added to give users direct access to full event details </td>
         </tr>
         <tr>
           <td style="padding: 10px; border: 1px solid #ddd;">The visual layout was consistent and easy to navigate.</td>
-          <td style="padding: 10px; border: 1px solid #ddd;">Added <strong>edit feedback modals</strong> to clearly confirm when edits are made ✅</td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Added <strong>edit feedback modals</strong> to clearly confirm when edits are made </td>
         </tr>
         <tr>
           <td style="padding: 10px; border: 1px solid #ddd;">Tooltips and confirmation messages helped build user confidence.</td>
-          <td style="padding: 10px; border: 1px solid #ddd;">Footfall data is now more <strong>prominently displayed</strong> in a new "Analysis" tab ✅</td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Footfall data is now more <strong>prominently displayed</strong> in a new "Analysis" tab </td>
         </tr>
         <tr>
           <td style="padding: 10px; border: 1px solid #ddd;">Navigation matched user expectations, minimizing confusion.</td>
-          <td style="padding: 10px; border: 1px solid #ddd;">Improved <strong>button visibility</strong> and added screen transitions for Add/Edit flows ✅</td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Improved <strong>button visibility</strong> and added screen transitions for Add/Edit flows </td>
         </tr>
       </tbody>
     </table>
