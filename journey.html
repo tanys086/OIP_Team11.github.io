@@ -25,10 +25,14 @@
                     <li class="nav-item dropdown">
                         <a href="journey.html" class="nav-link dropdown-toggle">Project Journey</a>
                         <ul class="dropdown-menu">
-                            <li><a href="journey.html#problem-solution" class="dropdown-link">Problem & Solution</a></li>
-                            <li><a href="journey.html#design-process" class="dropdown-link">Design Process</a></li>
-                            <li><a href="journey.html#prototypes" class="dropdown-link">Prototypes</a></li>
-                            <li><a href="journey.html#justification" class="dropdown-link">Justification</a></li>
+                            <li><a href="journey.html#problem-statement" class="dropdown-link">Problem Statement</a></li>
+                            <li><a href="journey.html#requirements" class="dropdown-link">Requirements</a></li>
+                            <li><a href="journey.html#design-process" class="dropdown-link">Methodology</a></li>
+                            <li><a href="journey.html#phase1" class="dropdown-link">Phase 1</a></li>
+                            <li><a href="journey.html#phase2" class="dropdown-link">Phase 2</a></li>
+                            <li><a href="journey.html#phase3" class="dropdown-link">Phase 3</a></li>
+                            <li><a href="journey.html#phase4" class="dropdown-link">Phase 4</a></li>
+
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -51,6 +55,23 @@
             </div>
         </nav>
     </header>
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
+        <ul class="sidebar-nav">
+            <li><a href="#problem_statement" class="sidebar-link">Problem Statement</a></li>
+            <li><a href="#requirements" class="sidebar-link">Requirements</a></li>
+            <li><a href="#design-process" class="sidebar-link">Methodology</a></li>
+            <li><a href="#phase1" class="sidebar-link">Phase 1</a></li>
+            <li><a href="#phase2" class="sidebar-link">Phase 2</a></li>
+            <li><a href="#phase3" class="sidebar-link">Phase 3</a></li>
+            <li><a href="#phase4" class="sidebar-link">Phase 4</a></li>
+            <!-- <li><a href="#prototypes" class="sidebar-link">Design Process</a></li> -->
+            <!-- <li><a href="#comparison" class="sidebar-link">Comparison</a></li> -->
+        </ul>
+    </nav>
+
+
     <!-- Main Content -->
     <main>
         <!-- Hero Section -->
@@ -59,20 +80,20 @@
                 <div class="hero-content">
                     <h1 class="hero-title">Our Project Journey</h1>
                     <p class="hero-subtitle">Documenting our research process and solution development for the Kibble Palace footfall tracking project</p>
-                    <div class="journey-nav">
-                        <a href="#requirements" class="journey-nav-link">Requirements</a>
-                        <a href="#comparison" class="journey-nav-link">Comparison</a>
-                        <a href="#design-process" class="journey-nav-link">Methodology</a>
-                        <a href="#prototypes" class="journey-nav-link">Design Process</a>
-                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Problem & Solution Section -->
-        <section id="requirements" class="problem-solution">
-            <div class="container">
-                <div class="split-layout">
+        <section class="problem-solution">
+            <div class="container" id="problem_statement">
+                <!-- New Problem Statement Box -->
+                <div class="problem-statement-card wide-statement">
+                    <h2 style="color: #3498db;">Problem Statement</h2>
+                    <p><strong>"To accurately measure footfall at Kibble Palace, tracking visitor numbers by time, date, or events using feasible tools which enables data-driven decisions."</strong></p>
+                </div>
+
+                <div class="split-layout" id="requirements">
                     <div class="split-content problem-side">
                         <div class="section-label">Client Requirements</div>
                         <h2>Friends of Glasgow Needs</h2>
@@ -194,11 +215,82 @@
             </div>
         </section>
 
+        <!-- Design Process Section - Timeline Layout -->
+        <section id="design-process" class="design-process">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-label">Methodology</div>
+                    <h2>Our Design Methodology</h2>
+                </div>
+                <div class="process-timeline">
+                    <div class="timeline-item left">
+                        <div class="timeline-marker">
+                            <div class="marker-icon">🔍</div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge">Phase 1</div>
+                            <h3>Research & Discovery</h3>
+                            <p>Conducted site analysis of the Kibble Palace, studying building layout, physical constraints, and aligning stakeholder requirements. Analyzed existing visitor counting technologies and their limitations in heritage environments.</p>
+                            <div class="timeline-details">
+                                <div class="detail-item">Site visits and observations</div>
+                                <div class="detail-item">Stakeholder interviews</div>
+                                <div class="detail-item">Technology assessment</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item right">
+                        <div class="timeline-marker">
+                            <div class="marker-icon">💡</div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge">Phase 2</div>
+                            <h3>Ideation & Concept Development</h3>
+                            <p>Explored various technological approaches including thermal imaging, RFID, and LiDAR sensing. Evaluated each solution against heritage constraints and accuracy requirements.</p>
+                            <div class="timeline-details">
+                                <div class="detail-item">Technology comparison matrix</div>
+                                <div class="detail-item">Concept sketching sessions</div>
+                                <div class="detail-item">Feasibility analysis</div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="timeline-item left">
+                        <div class="timeline-marker">
+                            <div class="marker-icon">🧑‍💻</div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge">Phase 3</div>
+                            <h3>Prototype Development</h3>
+                            <p>Explored various technological approaches including thermal imaging, RFID, and LiDAR sensing. Evaluated each solution against heritage constraints and accuracy requirements.</p>
+                            <div class="timeline-details">
+                                <div class="detail-item">Technology comparison matrix</div>
+                                <div class="detail-item">Concept sketching sessions</div>
+                                <div class="detail-item">Feasibility analysis</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item right">
+                        <div class="timeline-marker">
+                            <div class="marker-icon">🎯</div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge">Phase 4</div>
+                            <h3>Delivery of Solution</h3>
+                            <p>Final selected functional prototype and Overview of the product.</p>
+                            <div class="timeline-details">
+                                <div class="detail-item">Prototype delivery</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section>
             <div class="container">
                 <!-- Client's Previous Attempts Analysis -->
-                <div class="existing-solutions">
-                    <h3>Learning from Past Attempts</h3>
+                <div class="existing-solutions" id="phase1">
+                    <h2 class="phase-title">Phase 1 - Research & Discovery</h2>
+                    <h3>Learning from Existing Solutions</h3>
                     <div class="solutions-analysis">
                         <p>Understanding the Friends of Glasgow's previous visitor counting challenges helped us identify key requirements and avoid repeating unsuccessful approaches.</p>
                         <div class="solution-categories">
@@ -244,6 +336,8 @@
                             </div>
                         </div>
                         <div class="lessons-learned">
+                            <div class="section-header centered">
+                            <div class="section-label">Insights</div>
                             <h4>Key Lessons Learned</h4>
                             <div class="lesson-points">
                                 <div class="lesson-point">
@@ -269,314 +363,10 @@
             </div>
         </section>
 
-        <!-- Comparison Section - Comparative Layout -->
-        <section id="comparison" class="justification">
-            <div class="container">
-                <div class="section-header">
-                    <div class="section-label">Why LiDAR?</div>
-                    <h2>Solution Comparison</h2>
-                </div>
-                <div class="justification-layout">
-                    <div class="comparison-table">
-                        <h3>Technology Comparison</h3>
-                        <div class="table-wrapper">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th>Technology</th>
-                                        <th>Accuracy</th>
-                                        <th>Heritage Safe</th>
-                                        <th>Real-time</th>
-                                        <th>Privacy</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="highlight">
-                                        <td><strong>LiDAR</strong></td>
-                                        <td><span class="status excellent">Excellent</span></td>
-                                        <td><span class="status excellent">Yes</span></td>
-                                        <td><span class="status excellent">Yes</span></td>
-                                        <td><span class="status excellent">Yes</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Thermal Imaging</td>
-                                        <td><span class="status good">Good</span></td>
-                                        <td><span class="status good">Yes</span></td>
-                                        <td><span class="status good">Yes</span></td>
-                                        <td><span class="status fair">Fair</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Camera Systems</td>
-                                        <td><span class="status fair">Fair</span></td>
-                                        <td><span class="status poor">No</span></td>
-                                        <td><span class="status fair">Fair</span></td>
-                                        <td><span class="status poor">No</span></td>
-                                    </tr>
-                                    <tr class="highlight">
-                                        <td>RFID</td>
-                                        <td><span class="status good">Good</span></td>
-                                        <td><span class="status good">Yes</span></td>
-                                        <td><span class="status good">Yes</span></td>
-                                        <td><span class="status good">Yes</span></td>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="justification-content">
-                        <div class="justification-points">
-                            <div class="justification-point">
-                                <div class="point-number">01</div>
-                                <div class="point-content">
-                                    <h4>Precision & Accuracy</h4>
-                                    <p>LiDAR provides centi-meter accuracy in distance measurement, enabling precise visitor counting even in crowded conditions.</p>
-                                </div>
-                            </div>
-                            <div class="justification-point">
-                                <div class="point-number">02</div>
-                                <div class="point-content">
-                                    <h4>Heritage Compatibility</h4>
-                                    <p>The small form factor and non-invasive nature of LiDAR make it suitable for use in heritage sites without causing damage.</p>
-                                </div>
-                            </div>
-                            <div class="justification-point">
-                                <div class="point-number">03</div>
-                                <div class="point-content">
-                                    <h4>Environmental Resilience</h4>
-                                    <p>Operates reliably in varying light conditions and humidity levels typical of glasshouse environments.</p>
-                                </div>
-                            </div>
-                            <div class="justification-point">
-                                <div class="point-number">04</div>
-                                <div class="point-content">
-                                    <h4>Privacy Compliant</h4>
-                                    <p>Measures distance and movement without capturing identifiable personal information, ensuring visitor privacy.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Shortlisted Technologies Analysis -->
-                <div class="shortlist-analysis">
-                    <div class="section-header">
-                        <h3>Shortlisted Technologies: Detailed Analysis</h3>
-                        <p>Based on the initial comparison, <strong>LiDAR</strong> and <strong>RFID</strong> emerged as the top candidates. We conducted detailed ideation and analysis to make the final decision.</p>
-                    </div>
-
-                    <!-- Pro-Pro Table -->
-                    <div class="propro-table">
-                        <h4>Stakeholder Benefits Comparison</h4>
-                        <div class="table-wrapper">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th>Stakeholder</th>
-                                        <th>LiDAR</th>
-                                        <th>RFID</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><strong>Visitor</strong></td>
-                                        <td>
-                                            <div class="benefit-point">• Unobstructive for viewing of the palace</div>
-                                            <div class="benefit-point">• Non-invasive of privacy</div>
-                                        </td>
-                                        <td>
-                                            <div class="benefit-point">• Interaction with visitor</div>
-                                            <div class="benefit-point">• Non-invasive privacy to visitors</div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Friends of Glasgow</strong></td>
-                                        <td>
-                                            <div class="benefit-point">• Accurate data of footfall</div>
-                                            <div class="benefit-point">• Automatic measurement</div>
-                                        </td>
-                                        <td>
-                                            <div class="benefit-point">• Cheap implementation</div>
-                                            <div class="benefit-point">• Automatic measurement</div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
-                    <!-- Ideation Sketches -->
-                    <div class="ideation-sketches">
-                        <h4>Concept Sketch</h4>
-                        <div class="sketches-grid">
-                            <div class="sketch-item">
-                                <img src="img/prototype-v1.jpg" alt="LiDAR Concept Sketch" class="sketch-image">
-                                <div class="sketch-caption">
-                                    <h5>LiDAR Concept Development</h5>
-                                    <p>Initial sketch exploring sensor placement ceilling of the door</p>
-                                </div>
-                            </div>
-                            <div class="sketch-item">
-                                <img src="img/rfid-sketch.png" alt="RFID Concept Sketch" class="sketch-image">
-                                <div class="sketch-caption">
-                                    <h5>RFID System Design</h5>
-                                    <p>Conceptual layout for RFID tag "Call to Action" for visitor engagement and footfall tracking</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Similarities and Differences -->
-                    <div class="comparison-analysis">
-                        <h4>Similarities & Key Differences</h4>
-                        <div class="analysis-grid">
-                            <div class="similarities-section">
-                                <div class="analysis-header">
-                                    <span class="analysis-icon">🤝</span>
-                                    <h5>Similarities</h5>
-                                </div>
-                                <div class="analysis-content">
-                                    <div class="similarity-item">
-                                        <strong>Uses Non-camera technology</strong>
-                                    </div>
-                                </div>
-                                <div class="valued-benefits">
-                                    <h6>📈 Valued Benefits</h6>
-                                    <div class="benefit-item">
-                                        <strong>Both prioritize privacy by avoiding cameras</strong>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="differences-section">
-                                <div class="analysis-header">
-                                    <span class="analysis-icon">⚖️</span>
-                                    <h5>Differences</h5>
-                                </div>
-                                <div class="differences-grid">
-                                    <div class="tech-differences">
-                                        <h6>LiDAR</h6>
-                                        <ul>
-                                            <li>• Laser pulses for precise, real-time detection</li>
-                                            <li>• Good LiDAR = expensive</li>
-                                            <li>• Significantly more accurate</li>
-                                        </ul>
-                                    </div>
-                                    <div class="tech-differences">
-                                        <h6>RFID</h6>
-                                        <ul>
-                                            <li>• Visitor Dependent</li>
-                                            <li>• Requires user compliance, non-real-time</li>
-                                            <li>• Cheap</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Final Decision -->
-                    <div class="final-decision">
-                        <div class="decision-card">
-                            <div class="decision-header">
-                                <span class="decision-icon">🎯</span>
-                                <h4>Final Technology Selection: LiDAR</h4>
-                            </div>
-                            <div class="decision-content">
-                                <p><strong>After comprehensive analysis, LiDAR was selected as our primary technology solution.</strong></p>
-                                <div class="decision-reasons">
-                                    <div class="reason-item">
-                                        <span class="reason-icon">✅</span>
-                                        <div class="reason-text">
-                                            <strong>Superior Accuracy:</strong> Centimeter-level precision ensures reliable visitor counting data
-                                        </div>
-                                    </div>
-                                    <div class="reason-item">
-                                        <span class="reason-icon">✅</span>
-                                        <div class="reason-text">
-                                            <strong>Zero Visitor Dependency:</strong> Completely passive system requiring no visitor interaction
-                                        </div>
-                                    </div>
-                                    <div class="reason-item">
-                                        <span class="reason-icon">✅</span>
-                                        <div class="reason-text">
-                                            <strong>Real-time Data:</strong> Instant detection and processing for immediate insights
-                                        </div>
-                                    </div>
-                                    <div class="reason-item">
-                                        <span class="reason-icon">✅</span>
-                                        <div class="reason-text">
-                                            <strong>Heritage Compatibility:</strong> Non-invasive installation preserving building integrity
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="decision-note">
-                                    <p><em>While RFID offered cost advantages, the accuracy and reliability requirements of the heritage site made LiDAR the optimal choice for long-term success.</em></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Design Process Section - Timeline Layout -->
-        <section id="design-process" class="design-process">
-            <div class="container">
-                <div class="section-header">
-                    <div class="section-label">Methodology</div>
-                    <h2>Our Design Methodology</h2>
-                </div>
-                <div class="process-timeline">
-                    <div class="timeline-item left">
-                        <div class="timeline-marker">
-                            <div class="marker-icon">🔍</div>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-badge">Phase 1</div>
-                            <h3>Research & Discovery</h3>
-                            <p>Conducted site analysis of the Kibble Palace, studying building layout, physical constraints, and aligning stakeholder requirements. Analyzed existing visitor counting technologies and their limitations in heritage environments.</p>
-                            <div class="timeline-details">
-                                <div class="detail-item">Site visits and observations</div>
-                                <div class="detail-item">Stakeholder interviews</div>
-                                <div class="detail-item">Technology assessment</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline-item right">
-                        <div class="timeline-marker">
-                            <div class="marker-icon">💡</div>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-badge">Phase 2</div>
-                            <h3>Ideation & Concept Development</h3>
-                            <p>Explored various technological approaches including thermal imaging, RFID, and LiDAR sensing. Evaluated each solution against heritage constraints and accuracy requirements.</p>
-                            <div class="timeline-details">
-                                <div class="detail-item">Technology comparison matrix</div>
-                                <div class="detail-item">Concept sketching sessions</div>
-                                <div class="detail-item">Feasibility analysis</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline-item left">
-                        <div class="timeline-marker">
-                            <div class="marker-icon">🎯</div>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-badge">Phase 3</div>
-                            <h3>Solution Refinement</h3>
-                            <p>Selected LiDAR technology and developed detailed prototypes and mockups.</p>
-                            <div class="timeline-details">
-                                <div class="detail-item">LiDAR sensor selection</div>
-                                <div class="detail-item">Prototype development</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- Design Journey Section -->
         <section id="prototypes" class="design-journey">
-            <div class="container">
+            <div class="container" id="phase2">
+                <h2 class="phase-title">Phase 2 - Ideation & Concept Development</h2>
                 <div class="section-header centered">
                     <div class="section-label">Design Journey</div>
                     <h2>Our Comprehensive Design Process</h2>
@@ -584,36 +374,14 @@
                 </div>
 
                 <!-- Problem Statement & Solution Overview -->
-                <div class="journey-section">
-                    <div class="section-intro">
-                        <h3>User-Centric Problem Statement</h3>
-                        <div class="problem-statement-card">
-                            <p><strong>"How might we provide accurate visitor counting for the Kibble Palace while respecting heritage constraints, visitor privacy, and budget limitations?"</strong></p>
-                            <div class="stakeholders">
-                                <span class="stakeholder-tag">🏛️ Heritage Managers</span>
-                                <span class="stakeholder-tag">👥 Visitors</span>
-                                <span class="stakeholder-tag">📊 Friends of Glasgow</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="solution-overview">
-                        <h4>Our Proposed Solution</h4>
-                        <div class="solution-card">
-                            <div class="solution-visual" style="display: flex; gap: 24px; align-items: flex-start;">
-                                <img src="img/lidar-desc.png" alt="LiDAR Solution" class="solution-image" style="max-width: 48%; height: auto;">
-                                <img src="img/dashboard(1).png" alt="Dashboard" class="solution-image" style="max-width: 48%; height: auto;">
-                            </div>
-                            <div class="solution-content">
-                                <h5>LiDAR-Based Visitor Tracking System</h5>
-                                <p>A non-invasive, privacy-compliant sensor network using affordable LiDAR technology, paired with real-time analytics dashboard for comprehensive visitor insights.</p>
-                                <div class="solution-features">
-                                    <span class="feature-tag">✅ Heritage Safe</span>
-                                    <span class="feature-tag">✅ Privacy First</span>
-                                    <span class="feature-tag">✅ Budget Friendly</span>
-                                    <span class="feature-tag">✅ Real-time Data</span>
-                                </div>
-                            </div>
+                <div class="section-intro">
+                    <h3>User-Centric Problem Statement</h3>
+                    <div class="problem-statement-card">
+                        <p><strong>"How might we provide accurate visitor counting for the Kibble Palace while respecting heritage constraints, visitor privacy, and budget limitations?"</strong></p>
+                        <div class="stakeholders">
+                            <span class="stakeholder-tag">🏛️ Heritage Managers</span>
+                            <span class="stakeholder-tag">👥 Visitors</span>
+                            <span class="stakeholder-tag">📊 Friends of Glasgow</span>
                         </div>
                     </div>
                 </div>
@@ -727,53 +495,91 @@
                             </div>
                         </div>
 
+                        <!-- Technology Comparison Section -->
                         <div class="process-step">
                             <div class="step-indicator">
                                 <div class="step-number">04</div>
+                                <div class="step-connector"></div>
                             </div>
                             <div class="step-content">
                                 <div class="step-header">
-                                    <h4>Iterative Refinement</h4>
-                                    <span class="step-badge">Develop & Deliver</span>
+                                    <h4>Technology Comparison</h4>
+                                    <span class="step-badge">Define Phase</span>
                                 </div>
-                                <div class="refinement-process">
-                                    <div class="refinement-track">
-                                        <h5>🔧 Hardware Prototype Optimization:</h5>
-                                        <p>Continuously refined the LiDAR-based system to make it more cost-effective while maintaining the highest accuracy. Result: budget-conscious solution meeting all stakeholder requirements.</p>
-                                        <div class="dashboard-evolution">
-                                            <div class="evolution-step">
-                                                <img src="img/prototype-v1.jpg" alt="Prototype Version 1" class="evolution-image placeholder-image">
-                                                <span>V1: Basic Visualization</span>
-                                                <small>Initial concept with the sensor being mounted on the ceiling</small>
-                                            </div>
-                                            <div class="evolution-arrow">→</div>
-                                            <div class="evolution-step">
-                                                <img src="img/prototype-v2.jpg" alt="Prototype Version 2" class="evolution-image placeholder-image">
-                                                <span>V2: Enhanced Paper Prototype</span>
-                                                <small>Refined design with improved sensor positioning, size, and integration to the building. Raspberry Pi attached to the sensor for processing and lower cost.</small>
-                                            </div>
-                                            <div class="evolution-arrow">→</div>
-                                            <div class="evolution-step">
-                                                <img src="img/prototype.jpg" alt="Final Prototype" class="evolution-image">
-                                                <span>Final: Complete Prototype</span>
-                                                <small>Top down mounted LiDAR sensor with casing for the Raspberry Pi at the entrance of the common corridor</small>
+                                <div class="comparison-table">
+                                    <h3>Technology Comparison</h3>
+                                    <div class="table-wrapper">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Technology</th>
+                                                    <th>Accuracy</th>
+                                                    <th>Heritage Safe</th>
+                                                    <th>Real-time</th>
+                                                    <th>Privacy</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="highlight">
+                                                    <td><strong>LiDAR</strong></td>
+                                                    <td><span class="status excellent">Excellent</span></td>
+                                                    <td><span class="status excellent">Yes</span></td>
+                                                    <td><span class="status excellent">Yes</span></td>
+                                                    <td><span class="status excellent">Yes</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Thermal Imaging</td>
+                                                    <td><span class="status good">Good</span></td>
+                                                    <td><span class="status good">Yes</span></td>
+                                                    <td><span class="status good">Yes</span></td>
+                                                    <td><span class="status fair">Fair</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Camera Systems</td>
+                                                    <td><span class="status fair">Fair</span></td>
+                                                    <td><span class="status poor">No</span></td>
+                                                    <td><span class="status fair">Fair</span></td>
+                                                    <td><span class="status poor">No</span></td>
+                                                </tr>
+                                                <tr class="highlight">
+                                                    <td>RFID</td>
+                                                    <td><span class="status good">Good</span></td>
+                                                    <td><span class="status good">Yes</span></td>
+                                                    <td><span class="status good">Yes</span></td>
+                                                    <td><span class="status good">Yes</span></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div><br>
+                                <div class="justification-content">
+                                    <div class="justification-points">
+                                        <div class="justification-point">
+                                            <div class="point-number">01</div>
+                                            <div class="point-content">
+                                                <h4>Precision & Accuracy</h4>
+                                                <p>LiDAR provides centimeter-level accuracy in distance measurement, enabling precise visitor counting even in crowded conditions.</p>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="refinement-track">
-                                        <h5>📊 Dashboard Evolution:</h5>
-                                        <p>Started with a simple visualization focused on basic needs. Proper wireframe developed through multiple iterations, evolved into an intuitive interface supporting event tracking and administrative decision-making.</p>
-                                        <div class="dashboard-evolution">
-                                            <div class="evolution-step">
-                                                <img src="img/dashboard-v1.png" alt="Dashboard Version 1" class="evolution-image placeholder-image">
-                                                <span>V1: Basic Visualization</span>
-                                                <small>Initial concept with live guest count and simple line chart.</small>
+                                        <div class="justification-point">
+                                            <div class="point-number">02</div>
+                                            <div class="point-content">
+                                                <h4>Heritage Compatibility</h4>
+                                                <p>The small form factor and non-invasive nature of LiDAR make it suitable for use in heritage sites without causing damage.</p>
                                             </div>
-                                            <div class="evolution-arrow">→</div>
-                                            <div class="evolution-step">
-                                                <img src="img/dashboard(1).png" alt="Final Dashboard" class="evolution-image">
-                                                <span>Final: Complete System</span>
-                                                <small>Fully conceptualised dashboard with real-time data, event tracking, and multiple visualisation options.</small>
+                                        </div>
+                                        <div class="justification-point">
+                                            <div class="point-number">03</div>
+                                            <div class="point-content">
+                                                <h4>Environmental Resilience</h4>
+                                                <p>Operates reliably in varying light conditions and humidity levels typical of glasshouse environments.</p>
+                                            </div>
+                                        </div>
+                                        <div class="justification-point">
+                                            <div class="point-number">04</div>
+                                            <div class="point-content">
+                                                <h4>Privacy Compliant</h4>
+                                                <p>Measures distance and movement without capturing identifiable personal information, ensuring visitor privacy.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -782,8 +588,94 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="solution-overview" id="phase3">
+                <h2 class="phase-title">Phase 3 - Prototype Development</h2>
+                <div class="section-header centered">
+                <div class="section-label">Design Journey</div>
+                
+                <div class="section-header centered">
+                    <h3 class="section-subtitle">Developing our Prototype</h3>
+                    <p class="process-intro">Involving a meticulous process of designing, testing, and refining a LiDAR-based visitor tracking system for the Kibble Palace.</p>
+                </div>         
+                <div class="refinement-process-card">
+                    <div class="refinement-track">
+                        <h5 class="track-title">🔧 Hardware Prototype Optimization</h5>
+                        <p class="track-description">Continuously refined the LiDAR-based system to make it more cost-effective while maintaining the highest accuracy. Result: budget-conscious solution meeting all stakeholder requirements.</p>
+                        <div class="dashboard-evolution">
+                            <div class="evolution-step">
+                                <img src="img/prototype-v1.jpg" alt="Prototype Version 1" class="evolution-image">
+                                <div class="evolution-info">
+                                    <span class="evolution-label">V1: Basic Visualization</span>
+                                    <small class="evolution-note">Initial concept with the sensor being mounted on the ceiling</small>
+                                </div>
+                            </div>
+                            <div class="evolution-arrow">→</div>
+                            <div class="evolution-step">
+                                <img src="img/prototype-v2.jpg" alt="Prototype Version 2" class="evolution-image">
+                                <div class="evolution-info">
+                                    <span class="evolution-label">V2: Enhanced Paper Prototype</span>
+                                    <small class="evolution-note">Refined design with improved sensor positioning, size, and integration to the building. Raspberry Pi attached to the sensor for processing and lower cost.</small>
+                                </div>
+                            </div>
+                            <div class="evolution-arrow">→</div>
+                            <div class="evolution-step">
+                                <img src="img/prototype.jpg" alt="Final Prototype" class="evolution-image">
+                                <div class="evolution-info">
+                                    <span class="evolution-label">Final: Complete Prototype</span>
+                                    <small class="evolution-note">Top down mounted LiDAR sensor with casing for the Raspberry Pi at the entrance of the common corridor</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="refinement-track">
+                        <h5 class="track-title">📊 Dashboard Evolution</h5>
+                        <p class="track-description">Started with a simple visualization focused on basic needs. Proper wireframe developed through multiple iterations, evolved into an intuitive interface supporting event tracking and administrative decision-making.</p>
+                        <div class="dashboard-evolution">
+                            <div class="evolution-step">
+                                <img src="img/dashboard-v1.png" alt="Dashboard Version 1" class="evolution-image">
+                                <div class="evolution-info">
+                                    <span class="evolution-label">V1: Basic Visualization</span>
+                                    <small class="evolution-note">Initial concept with live guest count and simple line chart.</small>
+                                </div>
+                            </div>
+                            <div class="evolution-arrow">→</div>
+                            <div class="evolution-step">
+                                <img src="img/dashboard(1).png" alt="Final Dashboard" class="evolution-image">
+                                <div class="evolution-info">
+                                    <span class="evolution-label">Final: Complete System</span>
+                                    <small class="evolution-note">Fully conceptualised dashboard with real-time data, event tracking, and multiple visualisation options.</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
+
+            <div class="solution-overview" id="phase4">
+                <h2 class="phase-title">Phase 4 - Delivery of Solution</h2>
+                <div class="section-header centered">
+                    <div class="section-label">Prototype</div>
+                    <h3 class="section-subtitle">Our Final Prototype</h3>
+                    <p class="section-intro">Fully optimized LiDAR-based visitor tracking system, featuring a non-invasive sensor network and an intuitive dashboard, validated for accuracy, privacy, and heritage compatibility at the Kibble Palace.</p>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-visual centered-images" style="gap: 24px;">
+                        <img src="img/lidar-desc.png" alt="LiDAR Solution" class="solution-image">
+                        <img src="img/dashboard(1).png" alt="Dashboard" class="solution-image">
+                    </div><br>
+                    <div class="solution-content">
+                        <h5 class="solution-title">LiDAR-Based Visitor Tracking System</h5>
+                        <p class="solution-description">The final developed detailed prototype is a fully functional LiDAR-based visitor tracking system, meticulously crafted to meet the specific needs of the Kibble Palace. This prototype features a non-invasive sensor network utilizing affordable LiDAR technology, strategically mounted at key entry points to ensure accurate, real-time counting of visitors. Integrated with a Raspberry Pi for cost-effective processing, the system includes a robust casing designed to blend seamlessly with the heritage environment, preserving the structural integrity of the glasshouse. Accompanying the hardware is an intuitive real-time analytics dashboard, evolved through multiple iterations, offering comprehensive visitor insights with features like event tracking and customizable visualizations. This prototype has undergone rigorous testing and refinement, validated against stakeholder requirements for accuracy, privacy compliance, budget-friendliness, and environmental safety, ensuring it is ready for implementation and practical use in the historic setting.</p>
+                        <div class="solution-features">
+                            <span class="feature-tag">✅ Heritage Safe</span>
+                            <span class="feature-tag">✅ Privacy First</span>
+                            <span class="feature-tag">✅ Budget Friendly</span>
+                            <span class="feature-tag">✅ Real-time Data</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
     </main>
 
@@ -810,5 +702,49 @@
     </footer>
 
     <script src="js/journey.js"></script>
+    <script>
+        // JavaScript to handle active state for sidebar links
+        document.addEventListener('DOMContentLoaded', () => {
+            const sidebarLinks = document.querySelectorAll('.sidebar-link');
+            const sections = document.querySelectorAll('section[id]');
+
+            const setActiveLink = () => {
+                let current = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (window.scrollY >= sectionTop - 100 && window.scrollY < sectionTop + sectionHeight - 100) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                sidebarLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href').substring(1) === current) {
+                        link.classList.add('active');
+                    }
+                });
+            };
+
+            // Set active link on scroll
+            window.addEventListener('scroll', setActiveLink);
+
+            // Smooth scroll for sidebar links
+            sidebarLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = link.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    window.scrollTo({
+                        top: targetSection.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+
+            // Set initial active link
+            setActiveLink();
+        });
+    </script>
 </body>
 </html>
