@@ -279,7 +279,8 @@ const contentData = {
             <p>Following the completion and submission of our poster, we started to develop the structure of our project website. This will first include the Home page and About Us page.</p>
 
             <h3>Home Page</h3>
-            <p>The Home page will consist of a brief initial description of our project, followed by a project overview that will introduce our stakeholders, problem statement and solution for our project. The Home page will also explain our approach to the problem statement that we are trying to tackle, as well as a project timeline that summarizes the activities of each week in our project.</p>
+            <p>The Home page will consist of a brief initial description of our project, followed by a project overview that will introduce our stakeholders, problem statement and solution for our project.</p>
+            <p>The Home page will also explain our approach to the problem statement that we are trying to tackle, as well as a project timeline that summarizes the activities of each week in our project.</p>
             
             <h3>About Us Page</h3>
             <p>The About Us page will consist of our team photo, as well as a brief description of each member of our team, their role in the project, and their contributions to the project. Our respective Github and LinkedIn links can also be found here.</p>
@@ -290,13 +291,19 @@ const contentData = {
         title: 'Day 13 - Digital Platform Development',
         content: `
             <h3>Website Completion</h3>
-            <p>We continued to develop our project website by proceeding to add our project data into the website. This will include the Project Journey page, which will depict our journey in the development of our project, as well as the Documentation page, which will document the daily progression of every day in our project.</p>
+            <p>We continued to develop our project website by proceeding to add our project data into the website. This will include the Project Journey page, which will depict our journey in the development of our project, the Our Solution page, which will explain our proposed solution in detail, as well as the Documentation page, which will document the daily progression of every day in our project.</p>
             
             <h3>Project Journey Page</h3>
-            <p>The Project Journey page will consist of 4 sections: Requirements, Comparison, Methodology and Design Process. The Requirements section depicts the requirements that we have learned from consulting our stakeholder and fellow visitors, the insights that we have inferred from them, and the lessons that we have picked up from them. The Comparison section will compare the existing visitor counting technologies with our proposed solution, the Methodology section will outline the approach that we have taken to solve the problem, and the Design Process section will detail the design process that we have followed to create our solution.</p>
+            <p>The Project Journey page will consist of the following sections: Problem Statement, Requirements, Methodology, and Phases 1 to 4. The Problem Statement, Requirements and Methodology tabs explains the issue that our project is trying to tackle, and the approaches that we took to develop the plan that leads to our solution. Phases 1 to 4 tabs describes the complete journey of the development of our solution.</p>
+
+            <h3>Our Solution Page</h3>
+            <p>The Our Solution page will explain our final iteration of our solution, which we are proposing to our stakeholders regarding the problem statement that we are trying to tackle.</p>
 
             <h3>Documentation Page</h3>
-            <p>The Documentation page will consist of the 3 weeks of progress that we have achieved in our project, which are divided into the days in which we have worked on our project for each week. Our weekly videos are also shown according to the week that it was made in. Aside from that, the Team Contract, Future Works, Reflection and Proud Page tabs can be found here as well. The Team Contract tab solidifies our commitment in the completion of our project, The Future Works tab suggests potential advancements that our solution might adopt for improvement in the future, The Reflection tab displays the overall reflection that we as a team have as a closing statement, and the Proud Page tab is an essay explaining what we are proud of, or not proud of, about the work produced in our project.</p>
+            <p>The Documentation page will consist of the following sections: Work Portfolio, Reflection and Proud Page.</p>
+            <p>The Work Portfolio page documents 3 weeks of progress that we have achieved in our project, which are divided into the days in which we have worked on our project for each week. Our weekly videos are also shown according to the week that it was made in. Our Team Contract and Future Works tabs can be found here as well. The Team Contract tab stores the proof of commitment that we as a team have in completing our project, and the Future Works tab touches on the potential advancements that our solution can adopt in the future.</p>
+            <p>The Reflection page displays the overall reflection that we as a team have as a closing statement.</p>
+            <p>The Proud Page page is a short essay that explains what we are proud of, or not proud of, about the work produced in our project.</p>
         `
     },
     'day5-week3': {
