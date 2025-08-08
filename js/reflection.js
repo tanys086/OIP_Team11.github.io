@@ -199,6 +199,77 @@ const contentData = {
   `,
   },
 
+  "system-usability": {
+    date: "8 August 2025",
+    title: "System Usability Scale (SUS) Reflection",
+    content: `
+    <h3>🧪 How the SUS Test Was Conducted</h3>
+    <p>The System Usability Scale (SUS) was administered after the user completed a series of prototype interaction tasks, allowing them to rate the dashboard’s usability based on their direct experience.</p>
+
+    <h3>📋 SUS Evaluation Responses</h3>
+    <div style="text-align: center; margin: 20px 0;">
+      <img src="img/susTest.png" alt="SUS Test Responses" style="max-width: 60%; height: auto; border-radius: 8px; display: block; margin: 0 auto;" />
+    </div>
+
+    <h3>📈 SUS Score Calculation</h3>
+    <p>We applied the standard SUS formula:</p>
+    <ul>
+      <li>For odd-numbered questions: Score = response - 1</li>
+      <li>For even-numbered questions: Score = 5 - response</li>
+    </ul>
+    <p>The adjusted score total was 37, giving a final SUS score of:</p>
+
+    <h3>🧠 Reflection & Insights</h3>
+    <p>The table below summarizes the system's strengths and the usability pain points that have been addressed through iterative improvements.</p>
+
+    <table style="width: 100%; border-collapse: collapse; margin-top: 16px;">
+      <thead>
+        <tr style="background-color: #f2f2f2;">
+          <th style="padding: 10px; border: 1px solid #ddd;">✅ What Worked Well</th>
+          <th style="padding: 10px; border: 1px solid #ddd;">🔧 What Was Improved</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ddd;">Users could complete tasks (view/edit events, analyze trends) with little to no guidance.</td>
+          <td style="padding: 10px; border: 1px solid #ddd;">A <strong>“Show All Events” button</strong> was added to give users direct access to full event details ✅</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ddd;">The visual layout was consistent and easy to navigate.</td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Added <strong>edit feedback modals</strong> to clearly confirm when edits are made ✅</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ddd;">Tooltips and confirmation messages helped build user confidence.</td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Footfall data is now more <strong>prominently displayed</strong> in a new "Analysis" tab ✅</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ddd;">Navigation matched user expectations, minimizing confusion.</td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Improved <strong>button visibility</strong> and added screen transitions for Add/Edit flows ✅</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p style="margin-top: 20px;">
+      These improvements collectively helped the system achieve a <strong>SUS score of 92.5</strong>. The design is now more aligned with user expectations, and usability testing confirmed that tasks could be completed with minimal hesitation. The system will continue evolving with future feedback rounds.
+    </p>
+
+    <p style="margin-top: 20px;">
+      These improvements helped raise our SUS score to <strong>92.5</strong>, showing a strong commitment to user-centered design. The dashboard now delivers a smoother, more intuitive experience with reduced friction points. We plan to continue usability testing throughout future iterations.
+    </p>
+
+    <p style="margin-top: 20px;">
+      These insights confirm that the dashboard system is highly usable, but future iterations can benefit from improved interactivity and visibility of dynamic changes. Usability testing will continue to be a key part of our iterative design process.
+    </p>
+
+    <h3>✅ Conclusion</h3>
+    <p>
+      The SUS evaluation helped validate the usability of our final dashboard solution. Scoring 92.5 shows we achieved a system that’s 
+      easy to use, clear to navigate, and well-integrated. We plan to apply similar usability testing techniques in future projects to 
+      ensure our designs remain user-centric, effective, and inclusive.
+    </p>
+  `,
+  },
+
   // Additional Pages
 };
 

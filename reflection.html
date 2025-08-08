@@ -9,50 +9,69 @@
   <body>
     <!-- Header -->
     <header>
-        <nav>
-            <div class="nav-container">
-                <a href="index.html" class="logo">
-                    <div class="logo-icon">🏛️</div>
-                    Team 11 - Kibble Palace Footfall Analytics
-                </a>
-                <ul class="nav-menu">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">About Us</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="journey.html" class="nav-link dropdown-toggle">Project Journey</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="journey.html#problem-statement" class="dropdown-link">Problem Statement</a></li>
-                            <li><a href="journey.html#requirements" class="dropdown-link">Requirements</a></li>
-                            <li><a href="journey.html#design-process" class="dropdown-link">Methodology</a></li>
-                            <li><a href="journey.html#phase1" class="dropdown-link">Phase 1</a></li>
-                            <li><a href="journey.html#phase2" class="dropdown-link">Phase 2</a></li>
-                            <li><a href="journey.html#phase3" class="dropdown-link">Phase 3</a></li>
-                            <li><a href="journey.html#phase4" class="dropdown-link">Phase 4</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a href="solutions.html" class="nav-link">Our Solution</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle">Documentation</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="portfolio.html" class="dropdown-link">Work Portfolio</a></li>
-                            <li><a href="reflection.html" class="dropdown-link">Reflection</a></li>
-                            <li><a href="proud.html" class="dropdown-link">Proud Page</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
-        </nav>
+      <nav>
+        <div class="nav-container">
+          <a href="#" class="logo">
+            <div class="logo-icon">🏛️</div>
+            Team 11 - Kibble Palace Footfall Analytics
+          </a>
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="problemstatement.html" class="nav-link"
+                >Problem Statement</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a href="journey.html" class="nav-link dropdown-toggle"
+                >Project Journey</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="journey.html#requirements" class="dropdown-link"
+                    >Requirements</a
+                  >
+                </li>
+                <li>
+                  <a href="journey.html#comparison" class="dropdown-link"
+                    >Comparison</a
+                  >
+                </li>
+                <li>
+                  <a href="journey.html#design-process" class="dropdown-link"
+                    >Methodology</a
+                  >
+                </li>
+                <li>
+                  <a href="journey.html#prototypes" class="dropdown-link"
+                    >Design Process</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="reflection.html" class="nav-link dropdown-toggle active"
+                >Reflection</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a href="portfolio.html" class="nav-link dropdown-toggle"
+                >Documentation</a
+              >
+            </li>
+          </ul>
+          <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
     </header>
 
     <div class="main-wrapper">
@@ -101,6 +120,9 @@
               <a href="#" class="pitch-link" data-content="usability-week2"
                 >Usability Reflection</a
               >
+              <a href="#" class="pitch-link" data-content="system-usability"
+                >System Usability Scale</a
+              >
             </div>
           </div>
         </nav>
@@ -118,25 +140,34 @@
                 usability testing in the Kibble Palace LiDAR project.
               </p>
             </div>
-            <div class="overview-card">
-              <h3>🔍 Prototyping Process Reflection</h3>
-              <p>
-                A detailed look at our prototyping process, including challenges
-                faced and solutions implemented.
-              </p>
-            </div>
-            <div class="portfolio-overview">
-              <div class="overview-card">
-                <h3>Stakeholder Reflections</h3>
-                <p>Insights gained from three key user interactions.</p>
-              </div>
-              <div class="overview-card">
-                <h3>🧪 Usability Testing</h3>
-                <p>
-                  Usability evaluations that helped refine our solution’s design
-                  and experience.
-                </p>
-              </div>
+            <div class="portfolio-overview grid-2x2">
+  <div class="overview-card">
+    <h3>Stakeholder Reflections</h3>
+    <p>Insights gained from three key user interactions.</p>
+  </div>
+  <div class="overview-card">
+    <h3>🧪 Usability Testing</h3>
+    <p>
+      Usability evaluations that helped refine our solution’s design
+      and experience.
+    </p>
+    <p>A SUS (System Usability Scale) test was conducted to evaluate the overall usability of the dashboard.</p>
+  </div>
+  <div class="overview-card">
+    <h3>📏 SUS Usability Test & Purpose</h3>
+    <p>
+      A SUS (System Usability Scale) test was conducted to evaluate
+      the overall usability of the dashboard.
+    </p>
+  </div>
+  <div class="overview-card">
+    <h3>💡 Final Insights</h3>
+    <p>
+      The dashboard has been iteratively improved based on testing and feedback, resulting in a SUS score of 92.5.
+    </p>
+  </div>
+</div>
+
             </div>
           </div>
 
