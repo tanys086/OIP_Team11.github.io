@@ -69,8 +69,8 @@ header {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  font-size: 1.8rem;
-  font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: semi-bold;
   color: #2c3e50;
   text-decoration: none;
   transition: color 0.3s ease;
@@ -2105,7 +2105,6 @@ main {
   font-size: 24px;
   align-self: center;
 }
-
 
 /* Responsive Design */
 @media (max-width: 768px) {
